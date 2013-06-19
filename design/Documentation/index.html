@@ -1,0 +1,1078 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>"Polyon - HTML Template" Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt top">&ldquo;Polyon HTML Template&rdquo; Documentation by Ruven Pelka (v1.5)</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Polyon - HTML Template&rdquo;</h1>
+		
+		
+		
+		
+		<div class="borderTop">
+		  
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: July 4, 2011<br/>
+					By: Ruven Pelka
+					</strong>
+				</p>
+				<p class="prepend-top small">
+				  Informations about updates and new templates are always announced on Twitter and Facebook.
+				</p>
+				<p class="prepend-top">
+  				<a href="http://twitter.com/_ruven">
+  				  <img src="assets/images/twitter.png" alt="Follow Ruven Pelka on Twitter" width="230" height="59">
+  				</a>
+  				<br/>
+  				<a href="http://www.facebook.com/pages/Ruven/115129975163761">
+  				  <img src="assets/images/facebook.png" alt="Add Ruven Pelka on Facebook" width="230" height="59">
+  				</a>
+        </p>
+			</div><!-- end div .span-6 -->		
+	    
+	    
+	    
+	    
+			<div class="span-12 last">
+				<p class="prepend-top append-0">
+				  Thank you for purchasing my template!
+				</p>
+				<p>
+				  This documentation will teach you how to use the Polyon HTML template for your own needs.
+				  I provide pretty extensive help in this file, but this doesn’t mean the template is hard to use.
+				  I just want to cover every question that might occur.
+				</p>
+				<p>
+          This template is build on a rock solid and organized CSS/XHTML foundation.
+          You shouldn‘t have trouble to browse or edit the code, if you are familiar with the basics.
+				</p>
+				<p>
+				  Have fun with your new template! Best regards,
+    		  <br/>
+    		  <span class="alt large">Ruven Pelka</span>
+				</p>
+			</div>
+			
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		
+		
+		
+		
+		<ol class="alpha">
+			<li><a href="#folderStructure">Folder Structure</a></li>
+			<li><a href="#css">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript and jQuery</a></li>
+			<li><a href="#pictureSizes">Picture Sizes</a></li>
+			<li><a href="#layoutAdjustments">Layout Adjustments and Content Input</a></li>
+			<li><a href="#customElements">Custom Elements</a></li>
+			<li><a href="#flashVideos">Flash-Videos</a></li>
+			<li><a href="#moreCodeExamples">More Code Examples</a></li>
+			<li><a href="#photoshop">Photoshop Files</a></li>
+			<li><a href="#support">Support</a></li>
+			<li><a href="#sources">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="folderStructure"><strong>A) Folder Structure</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+		<ul>
+		  <li><strong>fonts</strong> → contains the fonts that are already integrated in the theme</li>
+		  <li><strong>images</strong> → contains all the layout images and demo pictures
+		    <ul>
+		      <li><strong>dummy</strong> → contains placeholder pictures for demonstration purpose</li>
+		      <li><strong>minimal</strong> → contains images that are used by the minimal page layout option</li>
+		    </ul>
+		  </li>
+		  <li><strong>javascripts</strong> → contains the jQuery Framework, jQuery plugins and theme specific jQuery code</li>
+		  <li><strong>plugins</strong> → contains additional jQuery plugins that are including files of different document types</li>
+		  <li><strong>stylesheets</strong> → containts the main CSS file <i>style.css</i> and more to control fonts and colors of the theme</li>
+		</ul>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="css"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+		<h4>Code Structure</h4>
+		<p>      The CSS code structure is pretty simple. 
+      In every CSS file you will find headlines that tell you what the following code is about.
+      <br/><br/>      <strong>Technical Note:</strong>
+      In front of every headline is the word <i>@group</i>.
+      This is a special tag, that is used by some CSS-Editors in order to let you navigate through your code faster by the use of a tree view where every group gets displayed as a folder.
+    </p>    
+    
+    
+        <h4>File Structure</h4>
+    <ul>
+  	  <li><strong>color_settings.css</strong> → Lets you control the colors of the layouts for different parts of the template</li>
+  	  <li><strong>font_settings.css</strong> → Lets you control the fonts for 4 different parts of the layout</li>
+  	  <li><strong>font_setup.css</strong> → Imports the Fonts from the <i>/fonts</i> folder with the <i>@font-face</i> method</li>
+  	  <li><strong>reset.css</strong> → CSS reset</li>
+  	  <li><strong>style.css</strong> → This is the main CSS file of the template that contains all the styles, except for colors and fonts.</li>
+  	</ul>
+    <p><strong>Note:</strong> It's not necessary to include every single CSS file in your <i>&lt;head&gt;</i>. The <i>style.css</i> imports them already, so you just have to link to this file.</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="javascript"><strong>C) JavaScript and jQuery</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+		<p>
+  		This template makes use of the jQuery JavaScript Framework and contains plugins that are written with the frameworks syntax.    </p>
+    <p>      All JavaScript files are included in the head of the template files.
+      <br/>      Most of the JavaScript files can be found in the <i>javascript</i> folder. The files of plugins that require more than just a JavaScript file are located in the <i>plugins</i> folder.
+		</p>
+		
+		<h4>Plugin Settings and Custom JavaScript</h4>
+		<p>
+		  To change the settings of a plugin (e.g. you want to change the transition effects of a slider), edit the <i>script.js</i> file inside the <i>javascript</i> folder.
+		  Here you will find all the code that configures and invokes the plugins.
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="pictureSizes"><strong>D) Picture Sizes</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+		<p>
+  		You should use the following picture sizes for certain areas of the template. These sizes (except for the Frontpage Sliders) are for framed pictures.    </p>
+    
+    <table summary="Picture Sizes">
+      <colgroup>
+        <col width="30%">
+        <col width="17%">
+        <col width="*">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Width (in pixels)</th>
+          <th>Height (in pixels)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Frontpage Sliders</td>
+          <td>960</td>
+          <td>450</td>
+        </tr>
+        <tr>
+          <td>Fullscreen / Nivo Slider</td>
+          <td>950</td>
+          <td>445</td>
+        </tr>
+        <tr>
+          <td>Two Third (Blog Post, 1-column Portfolio)</td>
+          <td>617</td>
+          <td>289</td>
+        </tr>
+        <tr>
+          <td>Half (2-column Portfolio)</td>
+          <td>450</td>
+          <td>237</td>
+        </tr>
+        <tr>
+          <td>One Third (3-column Portfolio)</td>
+          <td>284</td>
+          <td>166</td>
+        </tr>
+        <tr>
+          <td>One Fourth (4-column Portfolio)</td>
+          <td>201</td>
+          <td>136</td>
+        </tr>
+        <tr>
+          <td>"Latest Posts" Widget</td>
+          <td>60</td>
+          <td>60</td>
+        </tr>
+      </tbody>
+    </table>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="layoutAdjustments"><strong>E) Layout Adjustments and Content Input</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+    <p>
+      Before or after putting your own content in the template, please make sure you followed these steps:
+    </p>
+    
+    
+    
+    
+    
+    <h4>The Little Things</h4>
+    
+    <ul>
+      <li>Change the H1 heading to your page or company name.</li>      <li>Change the title of your pages.</li>      <li>Add a Meta-Description to your pages.</li>      <li>Add your own navigation links.</li>      <li>Add your own slogan to the Top Bar or delete the whole thing, if you don’t need it.</li>      <li>Put content into the Sidebar.</li>      <li>Edit the Social Links in the Footer and the Contact Page.</li>      <li>Edit the Footer.
+    </ul>
+		
+		
+		
+		
+		<h4>Changing the Logo</h4>
+		
+		<p>
+		  To change the logo, just overwrite the <i>logo.png</i> file inside the <i>images</i> folder.
+		  <br/>      If your logo is too long and gets cut off on the right side, you can change the width of the logo space in the <i>style.css</i> file under the Heading <i>Layout Structure &gt; Header &gt; “header.main .wrapper #logo a”</i>.
+		</p>
+    
+    
+    
+    
+    
+    <h4>Changing the Color</h4>
+    
+    <p>
+      You can change the color through the <i>color_settings.css</i> file in the folder <i>stylesheets</i>.
+      To pick colors you can either use the Customizer in the templates <a href="http://www.ruventhemes.com/themes/polyon/html/">Live Demo</a> or a simple <a href="http://www.colorpicker.com/">Color Picker</a>.
+    </p>
+    
+    
+    
+    
+    
+    <h4>Changing Fonts</h4>
+    
+    <h5>Integrated and System Fonts</h5>
+    
+    <p>
+      In the file <i>font_settings.css</i> in the folder <i>stylesheets</i> you can find a list of integrated and system font-families.
+      You can just copy and paste them in the CSS code to change the font families for certain areas of the template.
+    </p>
+    
+    <h5>Google Web Fonts</h5>
+    
+    <p>
+      To set a Google Web Font choose one out of the <a href="http://www.google.com/webfonts">Google Font Directory</a>.
+      Click on it, select the tab <i>Use this font</i> and follow the instructions.
+      You can then set the font in the file <i>font_settings.css</i> in the folder <i>stylesheets</i>.
+    </p>
+    
+    
+    
+    
+    
+    <h4>Integrating New Fonts</h4>
+    
+    <p>
+      The template is using the <i>@font-face</i> CSS method to integrate web fonts.
+      The easiest way to find fonts is the website <a href="http://www.fontsquirrel.com/">Font Squirrel</a>.
+      To integrate a font from this website, please follow these steps:
+      <ul>
+        <li>Click on a font that you like</li>
+        <li>Click on <i>License</i> to check if you're allowed to use the font for your purpose</li>
+        <li>Click on <i>@font-face Kit</i> and click <i>Download @font-face Kit</i>.</li>
+        <li>Unzip the file you get</li>
+        <li>Move the folder you get into the template folder <i>fonts</i></li>
+        <li>Open the file <i>stylesheet.css</i> in the font folder you just moved and copy all of it's code</li>
+        <li>Open the file <i>font_setup.css</i> in the folder <i>stylesheets</i> and paste the code on the end</li>
+        <li>Change the paths to the font files in the code to the font folder in which you moved your font files in</li>
+        <li>Copy the <i>font-family</i> name of the font you want to use and paste as <i>font-family</i> value in the file <i>font_settings.css</i></li>
+        <li>Enjoy the font</li>
+      </ul>
+      
+      <h5>font_setup.css</h5>
+      <pre>...
+@font-face {
+  font-family: '<span class="highlight">Sansation</span>';
+  src: url('<span class="highlight">../fonts/sansation/</span>Sansation_Light-webfont.eot');
+  src: url('<span class="highlight">../fonts/sansation/</span>Sansation_Light-webfont.eot?iefix') format('eot'),
+       url('<span class="highlight">../fonts/sansation/</span>Sansation_Light-webfont.woff') format('woff'),
+       url('<span class="highlight">../fonts/sansation/</span>Sansation_Light-webfont.ttf') format('truetype'),
+       url('<span class="highlight">../fonts/sansation/</span>Sansation_Light-webfont.svg#webfontfyQmQF30') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+...</pre>
+      
+      <h5>font_settings.css</h5>
+      <pre>...
+#topbar #punchline {
+  font-family: <span class="highlight">Sansation</span>, sans-serif;
+}
+...
+</pre>
+      
+    </p>
+		
+		
+		
+		
+		<h4>Nivo Slider Settings</h4>
+		
+		<p>
+		  To set certain options for the Nivo Slider, open the file <i>javascripts/script.js</i> and scroll to the headline <i>Nivo Slider</i>.
+		  Here you can set Transition Effect, Animation Speed (<i>animSpeed</i>) and Pause Time (<i>pauseTime</i>) and many more.
+		  Please note that Animation Speed and Pause Time need to be adjusted in milliseconds (3000 milliseconds = 3 seconds and 500 milliseconds = 0.5 seconds).
+		</p>
+		<p>
+		  Here are the effects you can insert:
+		</p>
+		<ul>
+		  <li>sliceDown</li>
+      <li>sliceDownLeft</li>
+      <li>sliceUp</li>
+      <li>sliceUpLeft</li>
+      <li>sliceUpDown</li>
+      <li>sliceUpDownLeft</li>
+      <li>fold</li>
+      <li>fade</li>
+      <li>random</li>
+		</ul>
+		<p>
+		  To learn more about the options visit the Nivo Slider creators website: <a href="http://nivo.dev7studios.com/#usage">nivo.dev7studios.com</a>.
+		</p>
+		
+		
+		
+		
+		<h4>Slides Slider Settings</h4>
+		
+		<p>
+		  To set certain options for the Slides Slider, open the file <i>javascripts/script.js</i> and scroll to the headline <i>Slides Slider</i>.
+		  Here you can set Transition Effect, Animation Speed (<i>pause</i>) and Pause Time (<i>play</i>) and many more.
+		  Please note that Animation Speed and Pause Time need to be adjusted in milliseconds (3000 milliseconds = 3 seconds and 500 milliseconds = 0.5 seconds).
+		</p>
+		<p>
+		  To learn more about the options visit the Slides Slider creators website: <a href="http://slidesjs.com/">slidesjs.com</a>.
+		</p>
+		
+		
+		
+		
+		<h4>Piecemaker Slider Settings</h4>
+		
+		<p>
+		  The files of the Piecemaker Slider are loacated in the directory <i>plugins/piecemaker</i>.
+		  You can set options for the slider in the file <i>piecemaker.xml</i>.
+		  Bacause of its massive capabilities I suggest that you read the <a href="http://www.modularweb.net/content/en/piecemaker/documentation.pdf">Piecemaker Documentation</a>.
+		</p>
+		
+		
+		
+		
+		<h4>Receive E-Mails from the Contact Form</h4>
+		
+		<p>
+  		This template includes a working AJAX-Contact-Form. In order to receive E-Mails that get sent from this form, you need to host the template on a server with PHP 5 and mail support (99% of all hosters should cover these requirements).      <br/>All you have to do then, is to open the file <i>contactform_mailer.php</i> and change the value of the receiver variable to your own E-Mail-Address:
+    </p>
+    <pre>$receiver = "youraddy@example.com";</pre>    <p>      In this file you can also change the output-notifications of the mailer-script.
+    </p>
+		
+		
+		
+		
+		<h4>Layout Options</h4>
+		
+		<p>
+  		You can control how the layout should look by adding certain classes to the body element, like this:
+		</p>
+		<pre>&lt;body class="minimal simple-nav no-topbar-shine"&gt;</pre>
+		<p>      This example would render the page with a minimalistic layout, a simple link navigation (instead of buttons) and no glassy shine for the Top Bar (where you can put in your slogan).
+    </p>
+    <p>      Here is an overview of all the classes you can include:
+    </p>
+    <table summary="Layout Options">
+      <colgroup>
+        <col width="20%">
+        <col width="*">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Class</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>with-topbar-content</td>
+          <td>Should be set on every page where you want to include much content or a slideshow in the Top Bar like on the Frontpage</td>
+        </tr>
+        <tr>
+          <td>fullwidth</td>
+          <td>Makes room for content in fullwidth of the page and hides the Sidebar.</td>
+        </tr>
+        <tr>
+          <td>minimal</td>
+          <td>Lets the page appear more minimalistic and 2-dimensional. Some details will disappear.</td>
+        </tr>
+        <tr>
+          <td>no-rounded-corners</td>
+          <td>Disables rounded corners.</td>
+        </tr>
+        <tr>
+          <td>no-sliding-links</td>
+          <td>Disables the sliding effect of the sidebar and footer navigation links</td>
+        </tr>
+        
+        
+        <tr>
+          <td>no-welcomebar</td>
+          <td>
+            Hides the the Welcome Bar on the Frontpage in which you can put a heading and a slogan.            <br/><strong>Note:</strong> You can also just delete section#welcomebar to get rid of it.
+          </td>
+        </tr>
+        
+        
+        <tr>
+          <td>no-header-top-border</td>
+          <td>Disables the border on top of the header</td>
+        </tr>
+        <tr>
+          <td>button-nav</td>
+          <td>
+            Displays the navigation menu links as buttons.            <br/><strong>Note:</strong> The classes <i>button-nav</i> or <i>simple-nav</i> need to be set on every page to make the navigation menu work correctly.
+          </td>
+        </tr>
+        <tr>
+          <td>simple-nav</td>
+          <td>
+            Displays the navigation menu links in a simple way (no buttons).            <br/><strong>Note:</strong> The classes <i>button-nav</i> or <i>simple-nav</i> need to be set on every page to make the navigation menu work correctly.
+          </td>
+        </tr>
+        <tr>
+          <td>no-topbar</td>
+          <td>
+            Hides the the Top Bar in which you can put a slogan.            <br/><strong>Note:</strong> You can also just delete section#topbar to get rid of it.
+          </td>
+        </tr>
+        <tr>
+          <td>no-topbar-shine</td>
+          <td>Disables the shine in the Top Bar</td>
+        </tr>
+        <tr>
+          <td>show-header-bottom-border</td>
+          <td>
+            Displays a boder under the header.            <br/><strong>Note:</strong> This only works if the Top Bar (<i>no-topbar</i>) is disabled.
+          </td>
+        </tr>
+        
+        
+        <tr>
+          <td>no-footer</td>
+          <td>
+            Hides the Footer.            <br/><strong>Note:</strong> You can also just delete footer.main to get rid of it.
+          </td>
+        </tr>
+        <tr>
+          <td>no-footer-top-border</td>
+          <td>Disables the big border on top of the footer</td>
+        </tr>
+        <tr>
+          <td>no-footerbar</td>
+          <td>
+            Hides the Footer Bar.            <br/><strong>Note:</strong> You can also just delete section#footerbar to get rid of it.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="customElements"><strong>F) Custom Elements</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+		<p>
+		  In this section I describe how to use custom elements.
+		</p>
+		
+		
+		
+		<div class="box">
+		
+		  
+  		<h4>Dividers, Spacers and Rulers</h4>
+  		<p>
+  		  <strong>Note:</strong> All Dividers, Spacers and Rulers will clear floats on both sides.
+  		</p>
+  		
+  		<hr class="space" />
+  		<h5>divider</h5>
+  		<p>
+  		  Clears floats on both sides. You should always use it, when you work with columns.
+  		</p>
+  		<pre>&lt;span class=”divider”&gt;&lt;/span&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>spacer</h5>
+  		<p>
+  		  Creates a spacer between elements.
+  		</p>
+  		<pre>
+&lt;span class=”spacer”&gt;&lt;/span&gt;
+&lt;span class=”small spacer”&gt;&lt;/span&gt;
+&lt;span class=”big spacer”&gt;&lt;/span&gt;
+&lt;span class=”bigger spacer”&gt;&lt;/span&gt;
+</pre>
+  		
+  		<hr class="space" />
+  		<h5>hr</h5>
+  		<p>
+  		  Creates a horizontal ruler (hr).
+  		</p>
+  		<pre>
+&lt;span class=”hr”&gt;&lt;/span&gt;
+&lt;span class=”smaller hr”&gt;&lt;/span&gt;
+&lt;span class=”small hr”&gt;&lt;/span&gt;
+&lt;span class=”big hr”&gt;&lt;/span&gt;
+&lt;span class=”bigger hr”&gt;&lt;/span&gt;
+</pre>
+
+
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Alignments, Floats and Helpers</h4>
+      
+  		<hr class="space" />
+  		<h5>Floats</h5>
+  		<pre>
+&lt;img class="alignleft" src="picture.jpg" /&gt;
+&lt;img class="alignright" src="picture.jpg" /&gt;
+&lt;img class="small alignleft" src="picture.jpg" /&gt;
+&lt;img class="small alignright" src="picture.jpg" /&gt;
+</pre>
+  		
+  		<hr class="space" />
+  		<h5>Text Alignment</h5>
+  		<pre>
+&lt;p class="left"&gt;Left aligned paragraph.&lt;p&gt;
+&lt;p class="right"&gt;Right aligned paragraph.&lt;p&gt;
+&lt;p class="center"&gt;Centered paragraph.&lt;p&gt;
+</pre>
+<pre>
+&lt;div class="center"&gt;
+  &lt;p&gt;Everything centered.&lt;p&gt;
+  &lt;p&gt;Everything centered.&lt;p&gt;
+&lt;div&gt;
+</pre>
+  		
+  		<hr class="space" />
+  		<h5>Text Size</h5>
+  		<pre>
+&lt;small&gt;A very small text.&lt;small&gt;
+&lt;p class="small text"&gt;A very small text.&lt;p&gt;
+&lt;p class="big text"&gt;A big text.&lt;p&gt;
+&lt;p class="bigger text"&gt;A bigger text.&lt;p&gt;
+&lt;p class="huge text"&gt;A huuuge text.&lt;p&gt;
+</pre>
+  		
+  		<hr class="space" />
+  		<h5>No margins or paddings</h5>
+  		<pre>
+&lt;p class="top"&gt;No top margin or padding.&lt;p&gt;
+&lt;p class="bottom"&gt;No bottom margin or padding.&lt;p&gt;
+</pre>
+  		<pre>
+&lt;p class="one-half"&gt;Just some text.&lt;p&gt;
+&lt;p class="one-half <b>last</b>"&gt;No right margin.&lt;p&gt;
+</pre>
+  		
+  		<hr class="space" />
+  		<h5>Misc</h5>
+  		<pre>
+&lt;p class="quiet"&gt;Background text.&lt;p&gt;
+</pre>
+
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Underlined Headings</h4>
+  		<pre>
+&lt;h2 class=”underlined”&gt;Underlined heading&lt;/h2&gt;
+&lt;h3 class=”underlined”&gt;Underlined heading&lt;/h3&gt;
+&lt;h4 class=”underlined”&gt;Underlined heading&lt;/h4&gt;
+</pre>
+    </div>
+		
+		
+		
+		<div class="box">
+  		<h4>Content Frames</h4>
+  		<p>
+  		  Creates a frame around your content elements.
+  		</p>
+  		
+  		<hr class="space" />
+  		<h5>Normal Content Frame</h5>
+  		<pre>&lt;div class="content-frame&gt;Content Frame content here&lt;/div&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Small Content Frame</h5>
+  		<pre>&lt;div class="small content-frame&gt;Small Content Frame content here&lt;/div&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Smaller Content Frame</h5>
+  		<pre>&lt;div class="smaller content-frame&gt;Smaller Content Frame content here&lt;/div&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5> Content Frame without backgound color</h5>
+  		<pre>&lt;div class="no-bg content-frame&gt;Content Frame without background color&lt;/div&gt;</pre>
+  		
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Image Frames and Captions</h4>
+  		
+  		<hr class="space" />
+  		<h5>Normal Frame</h5>
+  		<pre>
+&lt;a href="big_picture.jpg" class="framed"&gt;
+  &lt;img src="picture.jpg"&gt;
+&lt;/a&gt;
+</pre>
+
+  		<h5>Normal Frame with Shadow</h5>
+  		<pre>
+&lt;a href="big_picture.jpg" class="framed with-shadow"&gt;
+  &lt;img src="picture.jpg"&gt;
+&lt;/a&gt;
+</pre>
+
+  		<h5>Fancy Frame</h5>
+  		<pre>
+&lt;a href="big_picture.jpg" class="fancy framed with-shadow"&gt;
+  &lt;img src="picture.jpg"&gt;
+&lt;/a&gt;
+</pre>
+
+  		<h5>With Caption and shadow</h5>
+  		<pre>
+&lt;div class="framed wp-caption with-shadow"&gt;
+  &lt;a href="big_picture.jpg"&gt;
+    &lt;img src="picture.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;p class="wp-caption-text"&gt;
+    This is a picture with caption
+  &lt;/p&gt;
+&lt;/div&gt;
+</pre>
+  		
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Boxes</h4>
+  		
+  		<hr class="space" />
+  		<h5>Normal Box</h5>
+  		<pre>
+&lt;div class="box"&gt;
+  &lt;div class="box-header"&gt;
+    This is the box title
+  &lt;/div&gt;
+  &lt;div class="box-content"&gt;
+    &lt;p&gt;
+      Some content text...
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+  		
+  		<hr class="space" />
+  		<h5>Big Box</h5>
+  		<pre>
+&lt;div class="big box"&gt;
+  &lt;div class="box-header"&gt;
+    This is the box title
+  &lt;/div&gt;
+...
+</pre>
+  		
+  		<hr class="space" />
+  		<h5>Bigger Box</h5>
+  		<pre>
+&lt;div class="bigger box"&gt;
+  &lt;div class="box-header"&gt;
+    This is the box title
+  &lt;/div&gt;
+...
+</pre>
+
+  	</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Buttons</h4>
+  		
+  		<hr class="space" />
+  		<h5>Normal Button</h5>
+  		<pre>&lt;a class="button" href="#"&gt;This is a button&lt;/a&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Big Button</h5>
+  		<pre>&lt;a class="big button" href="#"&gt;This is a big button&lt;/a&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Bigger Button</h5>
+  		<pre>&lt;a class="bigger button" href="#"&gt;This is a bigger button&lt;/a&gt;</pre>
+  	</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Dropcaps</h4>
+  		
+  		<hr class="space" />
+  		<h5>Default</h5>
+  		<pre>&lt;p&gt;&lt;span class="dropcap"&gt;H&lt;/span&gt;ello&lt;/p&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Square</h5>
+  		<pre>&lt;p&gt;&lt;span class="dropcap-square"&gt;H&lt;/span&gt;ello&lt;/p&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Circle</h5>
+  		<pre>&lt;p&gt;&lt;span class="dropcap-circle"&gt;H&lt;/span&gt;ello&lt;/p&gt;</pre>
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Blockquotes</h4>
+  		
+  		<hr class="space" />
+  		<h5>Normal Blockquote</h5>
+  		<pre>&lt;blockquote&gt;
+  &lt;p&gt;Some Text&lt;/p&gt;
+&lt;/blockquote&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Blockquote with Author</h5>
+  		<pre>&lt;blockquote&gt;
+  &lt;p&gt;Some Text&lt;/p&gt;
+  &lt;p class="source"&gt;&mdash; Ruven Pelka&lt;/p&gt;
+&lt;/blockquote&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Floated Blockquote</h5>
+  		<p>
+  		  To get Blockquotes floated to a specific side, use the classes <i>alignleft</i> and <i>alignright</i>.
+  		</p>
+  		<pre>&lt;blockquote class="alignleft"&gt;
+  &lt;p&gt;Some Text&lt;/p&gt;
+&lt;/blockquote&gt;</pre>
+
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Lightbox</h4>
+  		<p>
+  		  To let a linked image or Flash-Video appear in a Lightbox, add the attribut <i>class=”lightbox”</i> to the anker element.
+  		</p>
+  		<pre>&lt;a class='lightbox' href="big_picture.jpg"&gt;
+  &lt;img src="picture.jpg" /&gt;
+&lt;/a&gt;</pre>
+
+      <p>
+        In order to let the user browse through many images inside the Lightbox, assign a sub-attribute to the <i>lightbox</i> value.
+      </p>
+      <pre>&lt;a class="lightbox[group]" href="big_picture1.jpg"&gt;&lt;img src="picture1.jpg" /&gt;&lt;/a&gt;
+&lt;a class="lightbox[group]" href="big_picture2.jpg"&gt;&lt;img src="picture2.jpg" /&gt;&lt;/a&gt;
+&lt;a class="lightbox[group]" href="big_picture3.jpg"&gt;&lt;img src="picture3.jpg" /&gt;&lt;/a&gt;</pre>
+      
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Toggler</h4>
+  		<p>
+  		  Shows and hides content with one click. This works well for FAQ pages.
+  		</p>
+  		<pre>&lt;div class="toggler"&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="toggle-content"&gt;
+  &lt;p&gt;Content...&lt;/p&gt;
+&lt;/div&gt;</pre>
+      <p>
+        <strong>Note</strong>: Make sure the title is wrapped in <i>&lt;strong&gt;</i> tags.
+      </p>
+      <p>
+        If you want the toggler to close all other open togglers on the page, when you click on the title, use the class <i>close-all</i>. 
+      </p>
+      <pre>&lt;div class="toggler close-all"&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/div&gt;
+...</pre>
+		</div>
+		
+		
+		
+		<div class="box">
+  		<h4>Custom Lists</h4>
+  		<p>
+  		  You can create different kinds of lists, just by adding certain classes to the element.
+  		</p>
+  		
+  		<hr class="space" />
+  		<h5>Check List</h5>
+  		<pre>&lt;ul class="checklist"&gt;
+  &lt;li&gt;List element&lt;/li&gt;
+&lt;/ul&gt;</pre>
+  		
+  		<hr class="space" />
+  		<h5>Cross List</h5>
+  		<pre>&lt;ul class="crosslist"&gt;
+  &lt;li&gt;List element&lt;/li&gt;
+&lt;/ul&gt;</pre>
+		</div>
+		
+		
+		<div class="box">
+  		<h4>Columns</h4>
+  		<p>
+  		  Use columns to place elements side by side. You can specify the width of a column by the class name.
+  		</p>
+  		<pre>&lt;p class=”one-third”&gt;Some text on the left&lt;/p&gt;
+&lt;p class=”two-third last”&gt;Some text on the right&lt;/p&gt;
+&lt;div class=”divider”&gt;&lt;/div&gt;</pre>
+      <p>
+        <strong>Note:</strong> Make sure to add the class <i>last</i> to the last column and to put a divider below to clear the floats of the columns.
+      </p>
+      
+      <p>The following column class names are available:</p>
+  		<ul>
+  		  <li>one-half</li>        <li>one-third</li>        <li>two-third</li>        <li>one-fourth</li>        <li>three-fourth</li>
+        <li>one-fifth</li>
+        <li>two-fifth</li>
+        <li>three-fifth</li>
+        <li>four-fifth</li>
+        <li>one-sixth</li>
+        <li>five-sixth</li>
+  		</ul>
+  		
+  		<p>
+  		  You can also nest columns inside each other.
+  		</p>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="flashVideos"><strong>G) Flash-Videos</strong> - <a href="#toc">top</a></h3>
+		<p>
+		  There are two ways to include Flash-Videos. Either you link it with the help of a Lightbox to play it, or you embed it directly into the page.
+		</p>
+		
+		<h4>Lightbox</h4>    <p>      All what you need, in order to play the video, is the URL.
+      If you want to link to a YouTube-Video, just go to the video of your choice, click below on <i>Share</i> and copy the URL into your anker element.
+    </p>
+    <pre>&lt;a class="lightbox" href="http://www.youtube.com/watch?v=5L1wHSl_h8w"&gt;
+  &lt;img src="picture.jpg" /&gt;
+&lt;/a&gt;</pre>
+    <p>
+      It works the same way with videos from <a href="http://www.vimeo.com/">vimeo.com</a>.
+    </p>
+    
+    <h4>Embedding</h4>
+    <p>
+      To embed a Video from YouTube or Vimeo just go to the video page, click the <i>share</i> button, make some adjustments (e.g. 613 pixel width on pages with a sidebar or 960 pixel width on fullwidth pages), copy the source code and include it into your page.
+      <br/>
+      You can also embed Flash-Videos directly on the Blog index (just like pictures):
+    </p>
+    <pre>...
+&lt;div class="entry-featured-content"&gt;
+  &lt;div class="fancy framed with-shadow"&gt;
+    &lt;iframe src="http://player.vimeo.com/video/16369165" width="613" height="345" frameborder="0"&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+...</pre>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="moreCodeExamples"><strong>H) More Code Examples</strong> - <a href="#toc">top</a></h3>
+    <p>
+      In this documentation I showed you how to implement the most important features.      <br/>
+      You will find more code examples in the HTML files. Just look how they are done there and do it the same way or just copy the code and paste your own content in. It‘s really simple.
+    </p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="photoshop"><strong>I) Photoshop Files</strong> - <a href="#toc">top</a></h3>
+		<p>
+		  Among with the template come all PSD files needed to edit the different layout styles and colors.
+		  With these files you can even create your own unique layout style. 		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="support"><strong>J) Support</strong> - <a href="#toc">top</a></h3>
+		<p>
+		  If you have any further questions, please use the comment section of this item at <a href="http://www.themeforest.net/">themeforest.net</a>. This way other useres can benefit from the solution as well. I will try my best to answer every question.		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="sources"><strong>K) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+  		The template is using the following external scripts and resources:
+		</p>
+		<ul>
+		  <li><a href="http://nivo.dev7studios.com/">Nivo Slider</a> jQuery Slideshow Plugin</li>
+		  <li><a href="http://www.modularweb.net/#/en/piecemaker/">Piecemaker 2</a> Slideshow Plugin</li>
+		  <li><a href="http://slidesjs.com/">Slides</a> jQuery Slideshow Plugin</li>
+		  <li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a> jQuery Plugin (as Lightbox)</li>
+		  <li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/">Superfish</a> jQuery Plugin (to enhance Dropdown Menus)</li>
+		  <li><a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">Validation</a> jQuery Plugin (to validate forms on the fly)</li>
+		  <li><a href="http://www.malsup.com/jquery/form/">Form</a> jQuery Plugin (to submit forms via AJAX)</li>
+		  <li><a href="http://www.komodomedia.com/download/#social-network-icon-pack">Social Bookmark Icons</a></li>
+		  <li><a href="http://www.fontsquirrel.com/">Fonts from Font Squirrel</a></li>
+		  <li><a href="http://code.google.com/webfonts">Google Web Fonts</a></li>
+		  <li><a href="http://www.dafont.com/df667-chlorine.font">DF667 Chlorine Font for the Logo</a></li>
+		</ul>
+		
+		<br/>
+		<hr/>
+		<br/>
+		<p>
+		  Again, thank you very much purchasing this template! I wish you all the best for the website that will grow out of it. If you want, you can post the URL of your final website in the comment section. I would really like to see how this template takes its place in the world wide web :)
+		</p>
+		<p>
+		  Best regards,
+		  <br/>
+		  <span class="alt large">Ruven Pelka</span>
+		</p>
+		<br/>
+		<hr/>
+		<br/>
+		
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+		
+		
+		
+		
+		
+	</div><!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,66 @@
+===========================================================================
+Polyon - HTML Template - Changelog
+===========================================================================
+
+
+
+---------------------------------------------------------------------------
+Version 1.5
+---------------------------------------------------------------------------
+
+ADDED: IE9 Support
+FIXED: Problem with the auto_lightbox jQuery function for images
+
+UPDATED FILES:
+- /javascripts/script.js
+- /stylesheets/style.css
+
+
+
+---------------------------------------------------------------------------
+Version 1.4
+---------------------------------------------------------------------------
+
+UPDATED: Template now validates under the new HTML5 specifications
+REMOVED: All "rel='lightbox[<groupname>]'" attributes
+ADDED: Moved lightbox triggers into the class attribute
+       (class='lightbox[<groupname>] ...')
+
+UPDATED FILES:
+- /javascripts/script.js
+- *.php (PHP Version)
+- *.html (HTML Version)
+
+
+
+---------------------------------------------------------------------------
+Version 1.3
+---------------------------------------------------------------------------
+
+FIXED: Small bug that didn't allowed the header bottom border to be colored
+       when the punchline is disabled
+
+UPDATED FILES:
+- /stylesheets/color_settings.css
+
+
+
+---------------------------------------------------------------------------
+Version 1.2
+---------------------------------------------------------------------------
+
+FIXED: The "glass shine" on the front page was a bit off, now it's centered
+
+UPDATED FILES:
+- /stylesheets/style.css
+
+
+
+---------------------------------------------------------------------------
+Version 1.1
+---------------------------------------------------------------------------
+
+FIXED: Small jQuery bug with the sliding links
+
+UPDATED FILES:
+- /javascripts/script.js
