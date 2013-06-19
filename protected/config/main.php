@@ -52,13 +52,21 @@ return array(
 
 		// uncomment the following to use a MySQL database
 
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=denwer_diplom',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '1',
-			'charset' => 'utf8',
-		),
+//		'db'=>array(
+//			'connectionString' => 'mysql:host=localhost;dbname=denwer_diplom',
+//			'emulatePrepare' => true,
+//			'username' => 'root',
+//			'password' => '1',
+//			'charset' => 'utf8',
+//		),
+
+        'db'=>array(
+            'connectionString' => 'mysql:host=eu-cdbr-west-01.cleardb.com;dbname=heroku_122125dfaffaa8f',
+            'emulatePrepare' => true,
+            'username' => 'bbda253b9e4f82',
+            'password' => 'a50796ab',
+            'charset' => 'utf8',
+        ),
 
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors

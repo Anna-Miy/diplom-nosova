@@ -1,9 +1,9 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-$url=parse_url(getenv("CLEARDB_DATABASE_URL"));
-var_dump($url);
-die;
+//$url=parse_url(getenv("CLEARDB_DATABASE_URL"));
+//var_dump($url);
+//die;
 
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/framework/yii.php';
