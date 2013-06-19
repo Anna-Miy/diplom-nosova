@@ -1,10 +1,10 @@
 <nav id="controlsNavigation" class="buttons">
 	<a href="#show" class="button left active">
-		<span class="icon icon19"></span>
+<!--		<span class="icon icon19"></span>-->
 		<span class="label">Просмотр маршрута</span>
 	</a>
-		<a href="#search" class="button middle">
-		<span class="icon icon198"></span>
+    <a href="#search" class="button middle">
+<!--		<span class="icon icon198"></span>-->
 		<span class="label">Поиcк маршрута</span>
 	</a>
 <!--		<a href="#stops" class="button right">-->
@@ -38,7 +38,9 @@
 				<div class="dropdown-slider routeOptions"></div>
 			</div>
 
-			<label style="position: relative;top: 10px;"><input type="checkbox" checked="checked" class="showStopsCheckbox">Показывать остановки</label>
+			<div class="showStopsCheck">
+                <label><input type="checkbox" checked="checked" class="showStopsCheckbox">Показывать остановки</label>
+            </div>
 		</div>
 
 		<div class="tab search">
@@ -90,7 +92,7 @@
 				<div class="dropdown-slider stopOptions"></div>
 			</div>
 
-			<label style="position: relative;top: 10px;"><input type="checkbox" checked="checked" class="showStopsCheckbox">Показывать остановки</label>
+			<div class="" ><label style="position: relative;top: 10px;"><input type="checkbox" checked="checked" class="showStopsCheckbox">Показывать остановки</label></div>
 
 		</div>
 

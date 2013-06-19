@@ -44,37 +44,21 @@
           <div class="scrollLeft"><<</div>
 
           <ul>
-              <!--			    <li class="odd first"><a href="#">Станция 1</a>-->
-              <!--				    <span class="decor l"></span>-->
-              <!--				    <span class="decor r"></span>-->
-              <!--			    </li>-->
-              <!--                <li class="even"><a href="#">вул. Тракторобуди//вникив / салт. шо<!--ссу </a>-->
-              <!--				    <span class="decor l"></span>-->
-              <!--				    <span class="decor r"></span>-->
-              <!--			    </li>-->
-              <!--			    <li class="odd"><a href="#">Станция 1</a>-->
-              <!--				    <span class="decor l"></span>-->
-              <!--				    <span class="decor r"></span>-->
-              <!--			    </li>-->
-              <!--			    <li class="even last"><a href="#">Станция 1</a>-->
-              <!--				    <span class="decor l"></span>-->
-              <!--				    <span class="decor r"></span>-->
-              <!--			    </li>-->
           </ul>
 
           <div class="scrollRight">>></div>
       </div>
 
       <div id="form-block" class="search-route">
-          <div class="modal-header">
-              <h5>Поиск маршрута</h5>
-          </div>
+<!--          <div class="modal-header">-->
+<!--              <h5>Поиск маршрута</h5>-->
+<!--          </div>-->
               <div class="modal-content">
                   <?php echo $content; ?>
-              </div>
-              <div class="modal-footer">
                   <a href="#" class="toggleStreets"></a>
               </div>
+<!--          <div class="modal-footer">-->
+<!--              </div>-->
       </div>
 
 
