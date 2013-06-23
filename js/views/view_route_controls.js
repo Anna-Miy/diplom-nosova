@@ -81,8 +81,10 @@
 
 
 		showRoute: function(e) {
+            console.log("showRoute")
 			var id = $(e.target).val();
-			this.collection.getRoute(id);
+            console.log(id)
+            this.collection.getRoute(id);
 		},
 
 		setActive: function (hash) {
