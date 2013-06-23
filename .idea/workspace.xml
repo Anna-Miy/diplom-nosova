@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/_map.php" afterPath="$PROJECT_DIR$/protected/views/layouts/_map.php" />
     </list>
     <ignored path="grom_diplom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +19,7 @@
     <file path="/frontend.css" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372020936918" ignored="false" />
     <file path="$PROJECT_DIR$/../heroku_diplom/js/views/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372019079300" ignored="false" />
     <file path="/Dummy.txt" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025054610" ignored="false" />
-    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025672158" ignored="false" />
+    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025818873" ignored="false" />
     <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372021265413" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,18 +42,18 @@
     <splitter split-orientation="horizontal" split-proportion="0.57990015">
       <split-first>
         <leaf>
-          <file leaf-file-name="_map.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="_map.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="67" selection-start="2103" selection-end="2103" vertical-scroll-proportion="37.89796">
+                <state line="37" column="90" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.23913044">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#6476#6770#0" expanded="true" />
-                    <element signature="e#6983#7279#0" expanded="true" />
+                    <element signature="e#6489#6783#0" expanded="true" />
+                    <element signature="e#6996#7292#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -88,10 +88,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="0" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.6557971">
+                <state line="14" column="8" selection-start="532" selection-end="532" vertical-scroll-proportion="-4.285714">
                   <folding />
                 </state>
               </provider>
@@ -162,8 +162,8 @@
         <option value="$PROJECT_DIR$/js/views/view_route_controls.js" />
         <option value="$PROJECT_DIR$/css/frontend.css" />
         <option value="$PROJECT_DIR$/protected/controllers/AjaxRouteController.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/_map.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/_map.php" />
       </list>
     </option>
   </component>
@@ -426,25 +426,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="532" selection-end="532" vertical-scroll-proportion="-4.285714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="67" selection-start="2103" selection-end="2103" vertical-scroll-proportion="37.89796">
+        <state line="37" column="90" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.23913044">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6476#6770#0" expanded="true" />
-            <element signature="e#6983#7279#0" expanded="true" />
+            <element signature="e#6489#6783#0" expanded="true" />
+            <element signature="e#6996#7292#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.6557971">
-          <folding />
         </state>
       </provider>
     </entry>

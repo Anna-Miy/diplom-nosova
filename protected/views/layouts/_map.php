@@ -35,7 +35,7 @@
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
     <script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
-    <script src="src=http://vkontakte.ru/js/api/xd_connection.js?2"></script>
+    <script src="http://vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
   <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap/js/bootstrap.min.js"></script>
   <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
