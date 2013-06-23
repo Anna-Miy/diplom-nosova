@@ -287,11 +287,11 @@ header.main .wrapper h1#logo {
 }
 
 #form-block {
-    position: absolute;
-    left: 0px;
-    margin: 3px;
-    z-index: 10;
-    background-color: #ffffff;
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*margin: 3px;*/
+    /*z-index: 10;*/
+    /*background-color: #ffffff;*/
 }
 
 .search-route .modal-header, .search-route .modal-content, .search-route .modal-footer {
@@ -329,4 +329,51 @@ header.main .wrapper h1#logo {
     z-index: 0;
     background: white;
     opacity: 0.8;
+}
+
+.currentRoute a.button{
+    margin-left: 0px;
+    border-radius: 0px;
+    border-left: none;
+}
+
+.typeOfRoute a.button{
+    margin-right: 0px;
+    border-radius: 0px;
+}
+
+.navbar .btn-navbar{
+    display: block !important;
+}
+
+#body-container .navbar ul {
+    width: 100%;
+}
+
+#body-container .main-menu li:last-child{
+    float: right;
+}
+
+.main-submenu li{
+    padding-right: 10px;
+}
+
+.main-submenu input[type="checkbox"]{
+    margin: 8px 0 0;
+}
+
+.main-submenu label.checkbox{
+    line-height: 30px;
+}
+
+.dropdown .control-group label {
+    display: inline-block;
+}
+
+.dropdown .control-group button {
+    float: right;
+}
+
+.dropdown .control-group input {
+    margin: 5px;
 }

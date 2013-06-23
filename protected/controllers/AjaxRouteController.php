@@ -42,7 +42,7 @@ class AjaxRouteController extends CController {
 		$data = CHtml::listData($data, 'id', 'name');
 		foreach($data as $value => $name) {
 			?>
-				<a href="#show/<?= $value ?>" class="ddm"><span class="label"><?= $name ?></span></a>
+				<option data-href="#show/<?= $value ?>"><?= $name ?></option>
 			<?php
 			//echo CHtml::tag('option', array('value'=>$value), CHtml::encode($name), true);
 		}
@@ -98,7 +98,10 @@ class AjaxRouteController extends CController {
 
 				// first iteration:
 				if($first_point_of_part) {
-					$route_name = Route::model()->findByPk($current['route_id'])->name;
+                    $route = Route::model()->findByPk($current['route_id']);
+					$route_name = $route->name;
+                    $route_type_id = $route->route_type_id;
+//					$route_name = Route::model()->findByPk($current['route_id'])->name;
 					$from_pos = $current['pos'];
 					$first_point_of_part = false;
 				}
@@ -106,7 +109,7 @@ class AjaxRouteController extends CController {
 				if(!isset($pointsPath[$i + 1]) || $pointsPath[$i + 1]['route_id'] != $current_route) {
 					$to_pos = $current['pos'];
 
-					$pathParts[] = array('name' => $route_name, 'points' => Route::getPathBetween2Points($from_pos, $to_pos, $current_route),);
+					$pathParts[] = array('name' => $route_name, 'route_type_id' => $route_type_id, 'points' => Route::getPathBetween2Points($from_pos, $to_pos, $current_route),);
 					$first_point_of_part = true;
 				}
 

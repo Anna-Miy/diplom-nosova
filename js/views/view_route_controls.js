@@ -4,35 +4,40 @@
 	C.ViewRouteControls = Backbone.View.extend({
 
 //		el: $('header.main'),
-		el: $('div#form-block'),
+		el: $('div.search-route'),
 
 		initialize: function(){
 			var self = this;
 			this.streets_panen_is_hidden = true;
 
-			this.$('.typeSelect a').click(function (e) {
+//            console.log(this.attr('id'))
+
+			this.$('.typeSelect').on('change', function (e) {
 				e.preventDefault();
-				var $this = $(this);
+				var $this = $(this).find('option:selected');
 				var route_type_id = $this.data('type-id');
 				var name = $this.find('.label').text();
 
+                console.log(route_type_id)
+
 				if(route_type_id) {
-					$this.closest('.dropdown').find('.button .label').text(name);
+					$this.closest('.dropdown').find('label').text(name);
 					var params = {
 						routeTypes: route_type_id
 					}
 					$.post('/AjaxRoute/routesOfType/', params, function (resp) {
-						$('.routeOptions').closest('.dropdown').find('.button .label').text('Маршрут')
+						$('.routeOptions').closest('.dropdown').find('label').text('Маршрут')
 						self.$('.routeOptions').html(resp)
 					});
 				}
 			});
 
-			this.$('.routeOptions a').live('click', function (e) {
-				var $this = $(this);
+			this.$('.routeOptions').on('change', function (e) {
+				var $this = $(this).find('option:selected');
 				var name = $this.find('.label').text();
-				$this.closest('.dropdown').find('.button .label').text(name);
-			});
+				$this.closest('.dropdown').find('label').text(name);
+                location.href = location.origin + $this.attr("data-href")
+            });
 
 			$('.showStopsCheckbox').change(function () {
 				var stops = $('.custom_overlay.stop');
@@ -81,17 +86,19 @@
 
 
 		showRoute: function(e) {
+            console.log("showRoute")
 			var id = $(e.target).val();
-			this.collection.getRoute(id);
+            console.log(id)
+            this.collection.getRoute(id);
 		},
 
 		setActive: function (hash) {
-            $('#controlsNavigation a').removeClass('active');
-            $('#controlsNavigation a[href="#'+ hash +'"]').addClass('active');
+            $('.main-menu li').removeClass('active');
+            $('.main-menu a[href="#'+ hash +'"]').parent('li').addClass('active');
             // hide all tabs
-            $('#routes_controls .tab').hide();
+            $('.main-submenu').hide();
             //show current
-            $('#routes_controls .tab.' + hash).show();
+            $('.' + hash + '-route').show();
 		},
 
 		hideShowPanel: function() {

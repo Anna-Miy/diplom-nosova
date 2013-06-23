@@ -23,6 +23,8 @@
 
   <!-- CSS: implied media=all -->
 	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic' rel='stylesheet' type='text/css'>
+    <link href='<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
   <!-- CSS concatenated and minified via ant build script-->
   
   <!-- end CSS-->
@@ -32,12 +34,53 @@
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+    <script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+    <script src="src=http://vkontakte.ru/js/api/xd_connection.js?2"></script>
+  <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap/js/bootstrap.min.js"></script>
   <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
-<body class="<?php echo $this->bodyClasses()?>">
+<body class="">
 
   <div id="body-container">
+      <div class="navbar navbar-fixed-top" style="position: absolute;">
+          <div class="navbar-inner">
+              <div class="container" style="width: auto; padding: 0 20px;">
+                  <div style="display: block;">
+                      <ul class="nav main-menu">
+                          <li><a href="#show">Просмотр</a></li>
+                          <li><a href="#search">Поиск</a></li>
+                          <li><a href="#">Мои маршруты</a></li>
+                          <li>
+                              <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+
+<!--                  <div class="nav-collapse navbar-responsive-collapse in collapse" style="height: 0px;">-->
+<!--                      <div class="search-route">-->
+<!---->
+<!--                              --><?php //echo $content; ?>
+<!--                              <a href="#" class="toggleStreets"></a>-->
+<!---->
+<!--                      </div>-->
+<!--                  </div>-->
+
+                  <div class="nav-collapse navbar-responsive-collapse in collapse search-route" style="height: 0px;">
+
+
+                          <?php echo $content; ?>
+<!--                          <a href="#" class="toggleStreets"></a>-->
+
+                  </div>
+
+              </div>
+          </div>
+      </div>
 
       <div id="streetsList" style="display: none;">
           <div class="op-bg"></div>
@@ -49,17 +92,17 @@
           <div class="scrollRight">>></div>
       </div>
 
-      <div id="form-block" class="search-route">
-<!--          <div class="modal-header">-->
-<!--              <h5>Поиск маршрута</h5>-->
-<!--          </div>-->
-              <div class="modal-content">
-                  <?php echo $content; ?>
-                  <a href="#" class="toggleStreets"></a>
-              </div>
-<!--          <div class="modal-footer">-->
+<!--      <div id="form-block" class="search-route">-->
+<!--<!--          <div class="modal-header">-->-->
+<!--<!--              <h5>Поиск маршрута</h5>-->-->
+<!--<!--          </div>-->-->
+<!--              <div class="modal-content">-->
+<!--                  --><?php //echo $content; ?>
+<!--                  <a href="#" class="toggleStreets"></a>-->
 <!--              </div>-->
-      </div>
+<!--<!--          <div class="modal-footer">-->-->
+<!--<!--              </div>-->-->
+<!--      </div>-->
 
 
 
@@ -122,11 +165,7 @@
     </div>
     <!-- END #main -->
 
-      <section id="footerbar">
-
-          <div id="map_legend"><ul></ul></div>
-
-      </section>
+      <div id="map_legend"><ul></ul></div>
 
   </div>
   <!-- END #body-container -->
