@@ -39,6 +39,17 @@
                 location.href = location.origin + $this.attr("data-href")
             });
 
+            this.$('#remember-route').on('click', function(){
+                var params = {
+                    vk_id: viewer_id,
+                    route_id: this.$('.routeOptions option:selected').text()
+                }
+                $.post('/AjaxRoute/saveVkRoute/', params, function (resp) {
+//                    $('.routeOptions').closest('.dropdown').find('label').text('Маршрут')
+//                    self.$('.routeOptions').html(resp)
+                });
+            })
+
 			$('.showStopsCheckbox').change(function () {
 				var stops = $('.custom_overlay.stop');
 				

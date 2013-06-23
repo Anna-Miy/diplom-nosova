@@ -69,6 +69,20 @@ class AjaxRouteController extends CController {
 			<?php
 		}
 	}
+
+    function actionSaveVkRoute() {
+
+//		$data = Stop::model()->findAll('route_type_id = :type', array(':type'=>(int) $_POST['routeTypes']));
+
+        $model = new Vk();
+        $model->route_id = $_POST['route_id'];
+        $model->vk_id = $_POST['vk_id'];
+
+        if (Vk::model()->findByAttributes(array("route_id" => $model->route_id, "vk_id" => $model->vk_id)) == null) {
+            $model->save();
+        }
+
+	}
 	
 
 	function actionSearch() {

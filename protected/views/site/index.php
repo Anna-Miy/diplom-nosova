@@ -16,6 +16,7 @@
         <label class="checkbox">
             <input type="checkbox" class="showStopsCheckbox" checked> Показывать остановки
         </label>
+        <button class="btn btn-success" id="remember-route" type="button">Запомнить</button>
     </li>
 </ul>
 
