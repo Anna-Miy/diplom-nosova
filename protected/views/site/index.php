@@ -42,20 +42,21 @@
 </ul>
 
 <script>
-    VK.init(function() {
+    window.onload = (function(){
+        VK.init(function() {
 
+            var parts=document.location.search.substr(1).split('&');
 
-        var parts=document.location.search.substr(1).split('&');
+            var flashVars={}, curr;
 
-        var flashVars={}, curr;
+            for (i=0; i<parts.length; i++) {
+                curr = parts[i].split('=');
+                flashVars[curr[0]] = curr[1];
+            }
 
-        for (i=0; i<parts.length; i++) {
-            curr = parts[i].split('=');
-            flashVars[curr[0]] = curr[1];
-        }
+            var viewer_id = flashVars['viewer_id'];
 
-        var viewer_id = flashVars['viewer_id'];
-
-        console.log(viewer_id)
+            console.log(viewer_id)
+        })
     })
 </script>

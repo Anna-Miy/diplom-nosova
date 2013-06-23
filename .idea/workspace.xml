@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
     </list>
     <ignored path="grom_diplom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372011509240" ignored="false" />
     <file path="/_layout.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370278065547" ignored="false" />
-    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372024875689" ignored="false" />
+    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025655813" ignored="false" />
     <file path="/_map.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372000334363" ignored="false" />
     <file path="/routes_editor.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370280836326" ignored="false" />
     <file path="/route_polyline.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370281435464" ignored="false" />
@@ -20,7 +19,7 @@
     <file path="/frontend.css" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372020936918" ignored="false" />
     <file path="$PROJECT_DIR$/../heroku_diplom/js/views/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372019079300" ignored="false" />
     <file path="/Dummy.txt" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025054610" ignored="false" />
-    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372024880483" ignored="false" />
+    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025672158" ignored="false" />
     <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372021265413" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
           <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="29" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.9637681">
+                <state line="46" column="0" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.6557971">
                   <folding />
                 </state>
               </provider>
@@ -248,14 +247,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2145144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.098185696" sideWeight="0.4140875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.5773746" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.5773746" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.41515476" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -444,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="29" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.9637681">
+        <state line="46" column="0" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.6557971">
           <folding />
         </state>
       </provider>
