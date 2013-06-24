@@ -69,7 +69,7 @@
 
             viewer_id = flashVars['viewer_id'];
 
-            console.log(viewer_id)
+            $('body').attr("viewer-id", viewer_id)
         })
     })
 </script>

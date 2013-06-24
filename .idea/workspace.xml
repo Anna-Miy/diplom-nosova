@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/views/view_route_controls.js" afterPath="$PROJECT_DIR$/js/views/view_route_controls.js" />
     </list>
     <ignored path="grom_diplom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372011509240" ignored="false" />
     <file path="/_layout.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370278065547" ignored="false" />
-    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030739288" ignored="false" />
+    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372079910358" ignored="false" />
     <file path="/_map.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030183536" ignored="false" />
     <file path="/routes_editor.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370280836326" ignored="false" />
     <file path="/route_polyline.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370281435464" ignored="false" />
@@ -19,7 +20,7 @@
     <file path="/frontend.css" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372020936918" ignored="false" />
     <file path="$PROJECT_DIR$/../heroku_diplom/js/views/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372019079300" ignored="false" />
     <file path="/Dummy.txt" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025054610" ignored="false" />
-    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372074848282" ignored="false" />
+    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372079959902" ignored="false" />
     <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372034631666" ignored="false" />
     <file path="/Vk.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372027979334" ignored="false" />
     <file path="/application.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030516080" ignored="false" />
@@ -47,7 +48,7 @@
           <file leaf-file-name="_map.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="52" column="57" selection-start="2764" selection-end="2773" vertical-scroll-proportion="37.714287">
+                <state line="52" column="57" selection-start="2764" selection-end="2773" vertical-scroll-proportion="32.918365">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,7 +65,7 @@
           <file leaf-file-name="view_route_controls.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="45" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.3254973">
+                <state line="59" column="17" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.8295711">
                   <folding />
                 </state>
               </provider>
@@ -102,7 +103,7 @@
           <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="60" column="0" selection-start="1976" selection-end="2280" vertical-scroll-proportion="-6.6734695">
+                <state line="56" column="15" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-10.551021">
                   <folding />
                 </state>
               </provider>
@@ -142,7 +143,7 @@
           <file leaf-file-name="index-old.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index-old.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.80633146">
+                <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.5100118">
                   <folding />
                 </state>
               </provider>
@@ -181,17 +182,17 @@
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/_map.php" />
         <option value="$PROJECT_DIR$/js/application.js" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/controllers/AjaxRouteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/js/views/view_route_controls.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="336" />
-    <option name="width" value="1317" />
-    <option name="height" value="744" />
+    <option name="x" value="1366" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -321,7 +322,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="336" width="1317" height="744" extended-state="6" />
+    <frame x="1366" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -329,9 +330,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.098185696" sideWeight="0.4140875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21400473" sideWeight="0.576" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.5773746" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21400473" sideWeight="0.4112" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.41515476" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -442,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index-old.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.80633146">
+        <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.5100118">
           <folding />
         </state>
       </provider>
@@ -477,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="9" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Vk.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="5" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.99097747">
@@ -491,9 +485,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxRouteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="34" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-16.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="57" selection-start="2764" selection-end="2773" vertical-scroll-proportion="37.714287">
+        <state line="52" column="57" selection-start="2764" selection-end="2773" vertical-scroll-proportion="32.918365">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -508,21 +516,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1976" selection-end="2280" vertical-scroll-proportion="-6.6734695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxRouteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="34" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-16.25">
+        <state line="56" column="15" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-10.551021">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="45" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.3254973">
+        <state line="59" column="17" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.8295711">
           <folding />
         </state>
       </provider>

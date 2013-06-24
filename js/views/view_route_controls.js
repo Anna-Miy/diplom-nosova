@@ -47,22 +47,17 @@
 
             this.$('#remember-route').on('click', function(){
                 var params = {
-                    vk_id: document.location.pathname.substr(1).split('_')[1],
+                    vk_id: $('body').attr("viewer-id"),
                     route_id: $('.routeOptions option:selected').attr("data-route")
                 }
-                console.log("parans = ")
-                console.log(document.location)
-                console.log(document.location.pathname.substr(1).split('_')[1])
                 $.post('/AjaxRoute/saveVkRoute/', params, function (resp) {
                 });
             })
 
             $('#my-routes').on('click', function(){
                 var params = {
-                    vk_id: document.location.pathname.substr(1).split('_')[1]
+                    vk_id: $('body').attr("viewer-id")
                 }
-                console.log("parans = ")
-                console.log(document.location.pathname.substr(1).split('_')[1])
                 $.post('/AjaxRoute/getMyRoutes/', params, function (resp) {
                     self.$('.myRoutes').html(resp)
                 });
