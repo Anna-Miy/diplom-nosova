@@ -89,6 +89,9 @@ class AjaxRouteController extends CController {
 
     function actionSaveVkRoute() {
 
+        CVarDumper::dump($_GET, 10, true);
+        die;
+
         $model = new Vk();
         $model->route_id = $_POST['route_id'];
         $model->vk_id = $_POST['vk_id'];
