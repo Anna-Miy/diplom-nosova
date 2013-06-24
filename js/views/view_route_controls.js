@@ -51,7 +51,8 @@
                     route_id: $('.routeOptions option:selected').attr("data-route")
                 }
                 console.log("parans = ")
-                console.log(params)
+                console.log(document.location)
+                console.log(document.location.pathname.substr(1).split('_')[1])
                 $.post('/AjaxRoute/saveVkRoute/', params, function (resp) {
                 });
             })
@@ -61,7 +62,7 @@
                     vk_id: document.location.pathname.substr(1).split('_')[1]
                 }
                 console.log("parans = ")
-                console.log(params)
+                console.log(document.location.pathname.substr(1).split('_')[1])
                 $.post('/AjaxRoute/getMyRoutes/', params, function (resp) {
                     self.$('.myRoutes').html(resp)
                 });
