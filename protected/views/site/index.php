@@ -69,6 +69,9 @@
 
             viewer_id = flashVars['viewer_id'];
 
+            console.log(viewer_id)
+            console.log(flashVars)
+
             $('body').attr("viewer-id", viewer_id)
         })
     })

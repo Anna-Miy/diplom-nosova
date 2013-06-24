@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/views/view_route_controls.js" afterPath="$PROJECT_DIR$/js/views/view_route_controls.js" />
     </list>
     <ignored path="grom_diplom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372011509240" ignored="false" />
     <file path="/_layout.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370278065547" ignored="false" />
-    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372079910358" ignored="false" />
+    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372080708338" ignored="false" />
     <file path="/_map.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030183536" ignored="false" />
     <file path="/routes_editor.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370280836326" ignored="false" />
     <file path="/route_polyline.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370281435464" ignored="false" />
@@ -20,7 +19,7 @@
     <file path="/frontend.css" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372020936918" ignored="false" />
     <file path="$PROJECT_DIR$/../heroku_diplom/js/views/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372019079300" ignored="false" />
     <file path="/Dummy.txt" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025054610" ignored="false" />
-    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372079959902" ignored="false" />
+    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372080758504" ignored="false" />
     <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372034631666" ignored="false" />
     <file path="/Vk.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372027979334" ignored="false" />
     <file path="/application.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030516080" ignored="false" />
@@ -62,10 +61,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="view_route_controls.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="view_route_controls.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="59" column="17" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.8295711">
+                <state line="58" column="54" selection-start="1908" selection-end="1908" vertical-scroll-proportion="43.76">
                   <folding />
                 </state>
               </provider>
@@ -100,10 +99,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="15" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-10.551021">
+                <state line="72" column="33" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.8781903">
                   <folding />
                 </state>
               </provider>
@@ -183,8 +182,8 @@
         <option value="$PROJECT_DIR$/protected/views/layouts/_map.php" />
         <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/protected/controllers/AjaxRouteController.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/js/views/view_route_controls.js" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
       </list>
     </option>
   </component>
@@ -514,16 +513,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+    <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="15" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-10.551021">
+        <state line="58" column="54" selection-start="1908" selection-end="1908" vertical-scroll-proportion="43.76">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.8295711">
+        <state line="72" column="33" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.8781903">
           <folding />
         </state>
       </provider>
