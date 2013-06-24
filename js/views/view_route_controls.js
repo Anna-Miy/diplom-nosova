@@ -50,6 +50,8 @@
                     vk_id: viewer_id,
                     route_id: $('.routeOptions option:selected').attr("data-route")
                 }
+                console.log("parans = ")
+                console.log(params)
                 $.post('/AjaxRoute/saveVkRoute/', params, function (resp) {
                 });
             })
