@@ -60,6 +60,8 @@
 
             var parts=document.location.search.substr(1).split('&');
 
+            console.log(document.location)
+
             var flashVars={}, curr;
 
             for (i=0; i<parts.length; i++) {

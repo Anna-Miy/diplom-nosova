@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372011509240" ignored="false" />
     <file path="/_layout.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370278065547" ignored="false" />
-    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372080708338" ignored="false" />
+    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372081293408" ignored="false" />
     <file path="/_map.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030183536" ignored="false" />
     <file path="/routes_editor.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370280836326" ignored="false" />
     <file path="/route_polyline.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370281435464" ignored="false" />
@@ -19,7 +19,7 @@
     <file path="/frontend.css" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372020936918" ignored="false" />
     <file path="$PROJECT_DIR$/../heroku_diplom/js/views/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372019079300" ignored="false" />
     <file path="/Dummy.txt" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025054610" ignored="false" />
-    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372080758504" ignored="false" />
+    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372081298679" ignored="false" />
     <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372034631666" ignored="false" />
     <file path="/Vk.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372027979334" ignored="false" />
     <file path="/application.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030516080" ignored="false" />
@@ -102,7 +102,7 @@
           <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="72" column="33" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.8781903">
+                <state line="62" column="42" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.7041763">
                   <folding />
                 </state>
               </provider>
@@ -522,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="33" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.8781903">
+        <state line="62" column="42" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.7041763">
           <folding />
         </state>
       </provider>
