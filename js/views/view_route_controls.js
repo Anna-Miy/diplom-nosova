@@ -46,6 +46,17 @@
             });
 
             this.$('#remember-route').on('click', function(){
+                var parts=document.location.search.substr(1).split('&');
+
+                var flashVars={}, curr;
+
+                for (i=0; i<parts.length; i++) {
+                    curr = parts[i].split('=');
+                    flashVars[curr[0]] = curr[1];
+                }
+
+                var viewer_id = flashVars['viewer_id'];
+
                 var params = {
                     vk_id: viewer_id,
                     route_id: $('.routeOptions option:selected').attr("data-route")
@@ -57,6 +68,16 @@
             })
 
             $('#my-routes').on('click', function(){
+                var parts=document.location.search.substr(1).split('&');
+
+                var flashVars={}, curr;
+
+                for (i=0; i<parts.length; i++) {
+                    curr = parts[i].split('=');
+                    flashVars[curr[0]] = curr[1];
+                }
+
+                var viewer_id = flashVars['viewer_id'];
                 var params = {
                     vk_id: viewer_id
                 }
