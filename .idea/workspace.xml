@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" name="Default" comment="" />
+    <list default="true" id="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/views/view_route_controls.js" afterPath="$PROJECT_DIR$/js/views/view_route_controls.js" />
+    </list>
     <ignored path="grom_diplom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372011509240" ignored="false" />
@@ -13,12 +15,12 @@
     <file path="/editor.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370281149844" ignored="false" />
     <file path="/AjaxRouteController.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372032328452" ignored="false" />
     <file path="/Route.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370986318434" ignored="false" />
-    <file path="/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372031978390" ignored="false" />
+    <file path="/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372034977129" ignored="false" />
     <file path="/frontend.css" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372020936918" ignored="false" />
     <file path="$PROJECT_DIR$/../heroku_diplom/js/views/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372019079300" ignored="false" />
     <file path="/Dummy.txt" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025054610" ignored="false" />
-    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372034065781" ignored="false" />
-    <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030486497" ignored="false" />
+    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372034980956" ignored="false" />
+    <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372034631666" ignored="false" />
     <file path="/Vk.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372027979334" ignored="false" />
     <file path="/application.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030516080" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +64,7 @@
           <file leaf-file-name="view_route_controls.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="36" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.38403615">
+                <state line="59" column="17" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.4066265">
                   <folding />
                 </state>
               </provider>
@@ -118,7 +120,7 @@
           <file leaf-file-name="AjaxRouteController.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxRouteController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="89" column="34" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-15.0">
+                <state line="88" column="0" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-14.375">
                   <folding />
                 </state>
               </provider>
@@ -320,14 +322,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.098185696" sideWeight="0.4140875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.452508" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.452508" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.3244397" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -489,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxRouteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="34" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="57" selection-start="2764" selection-end="2773" vertical-scroll-proportion="3.3061225">
@@ -518,9 +513,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxRouteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="36" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.38403615">
+        <state line="59" column="17" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.4066265">
           <folding />
         </state>
       </provider>

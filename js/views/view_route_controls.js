@@ -58,6 +58,8 @@
                 var params = {
                     vk_id: viewer_id
                 }
+                console.log("parans = ")
+                console.log(params)
                 $.post('/AjaxRoute/getMyRoutes/', params, function (resp) {
                     self.$('.myRoutes').html(resp)
                 });
