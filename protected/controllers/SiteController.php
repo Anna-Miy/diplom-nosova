@@ -46,7 +46,7 @@ class SiteController extends FrontendController
 		Yii::app()->ClientScript->registerScriptFile(Yii::app()->baseUrl.'/js/models/point.js', CClientScript::POS_END);
 		Yii::app()->ClientScript->registerScriptFile(Yii::app()->baseUrl.'/js/application.js', CClientScript::POS_END);
 		$this->render('index', array(
-			'allRoutes' => RouteTypes::model()->findAll()
+			'allRoutes' => RouteTypes::model()->findAll(),
 		));
 	}
 

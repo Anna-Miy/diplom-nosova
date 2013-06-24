@@ -16,6 +16,7 @@
 			'show': 'show',
 			'search': 'search',
 			'stops': 'stops',
+			'my': 'my',
 			'': 'show'
 		},
 
@@ -38,7 +39,11 @@
 
 		stops: function () {
 		  this.controlPanel.setActive('stops');
-		}
+		},
+
+        my: function () {
+            this.controlPanel.setActive('my');
+        }
 
 	});
 

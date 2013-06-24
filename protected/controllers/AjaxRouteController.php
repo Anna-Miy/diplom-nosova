@@ -42,7 +42,7 @@ class AjaxRouteController extends CController {
 		$data = CHtml::listData($data, 'id', 'name');
 		foreach($data as $value => $name) {
 			?>
-				<option data-href="#show/<?= $value ?>"><?= $name ?></option>
+				<option data-href="#show/<?= $value ?>" data-route="<?= $value ?>"><?= $name ?></option>
 			<?php
 			//echo CHtml::tag('option', array('value'=>$value), CHtml::encode($name), true);
 		}
@@ -70,9 +70,24 @@ class AjaxRouteController extends CController {
 		}
 	}
 
-    function actionSaveVkRoute() {
+    function actionGetMyRoutes() {
 
-//		$data = Stop::model()->findAll('route_type_id = :type', array(':type'=>(int) $_POST['routeTypes']));
+		$data = Vk::model()->findAll(array(
+			'condition' => 'vk_id = :vk_id',
+			'params' => array(':vk_id' => $_POST['vk_id']),
+			'with' => 'route'
+		));
+
+        $data = CHtml::listData($data, 'route_id', 'route.name');
+
+        foreach($data as $value => $name) {
+			?>
+                <option data-href="#show/<?= $value ?>"><?= $name ?></option>
+			<?php
+		}
+	}
+
+    function actionSaveVkRoute() {
 
         $model = new Vk();
         $model->route_id = $_POST['route_id'];

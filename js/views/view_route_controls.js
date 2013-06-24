@@ -7,6 +7,7 @@
 		el: $('div.search-route'),
 
 		initialize: function(){
+            console.log("init_lala")
 			var self = this;
 			this.streets_panen_is_hidden = true;
 
@@ -32,6 +33,11 @@
 				}
 			});
 
+            this.$('.myRoutes').on('change', function (e) {
+                var $this = $(this).find('option:selected');
+                location.href = location.origin + $this.attr("data-href")
+            });
+
 			this.$('.routeOptions').on('change', function (e) {
 				var $this = $(this).find('option:selected');
 				var name = $this.find('.label').text();
@@ -42,11 +48,18 @@
             this.$('#remember-route').on('click', function(){
                 var params = {
                     vk_id: viewer_id,
-                    route_id: this.$('.routeOptions option:selected').text()
+                    route_id: $('.routeOptions option:selected').attr("data-route")
                 }
                 $.post('/AjaxRoute/saveVkRoute/', params, function (resp) {
-//                    $('.routeOptions').closest('.dropdown').find('label').text('Маршрут')
-//                    self.$('.routeOptions').html(resp)
+                });
+            })
+
+            $('#my-routes').on('click', function(){
+                var params = {
+                    vk_id: viewer_id
+                }
+                $.post('/AjaxRoute/getMyRoutes/', params, function (resp) {
+                    self.$('.myRoutes').html(resp)
                 });
             })
 

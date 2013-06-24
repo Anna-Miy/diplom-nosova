@@ -42,7 +42,19 @@
     </li>
 </ul>
 
+<ul class="nav main-submenu my-route">
+    <li class="dropdown">
+        <div class="control-group">
+            <label>Маршрут</label>
+            <select class="span2 myRoutes">
+            </select>
+        </div>
+    </li>
+</ul>
+
 <script>
+    var viewer_id;
+    console.log("init_bebe")
     window.onload = (function(){
         VK.init(function() {
 
@@ -55,7 +67,7 @@
                 flashVars[curr[0]] = curr[1];
             }
 
-            var viewer_id = flashVars['viewer_id'];
+            viewer_id = flashVars['viewer_id'];
 
             console.log(viewer_id)
         })

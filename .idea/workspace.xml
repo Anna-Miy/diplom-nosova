@@ -2,8 +2,184 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/models/Vk.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/33e9bd8e/pager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/detailview/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/jquery.yiigridview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/update.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/gridview/view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/listview/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/listview/jquery.yiilistview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/listview/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/listview/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/354af690/listview/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/autocomplete/indicator.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/autocomplete/jquery.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.ajaxqueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.ba-bbq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.bgiframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.maskedinput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.multifile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.rating.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.treeview.async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.treeview.edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.yii.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.yiiactiveform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jquery.yiitab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.resizable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.selectable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/css/base/jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/js/jquery-ui-i18n.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/jui/js/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/rating/delete.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/rating/jquery.rating.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/rating/star.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/file.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/folder-closed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-black-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-black.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-default-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-famfamfam-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-famfamfam.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-gray-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-gray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-red-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/images/treeview-red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/treeview/jquery.treeview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/616e14ba/yiitab/jquery.yiitab.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cb0dacfd/pager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/detailview/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/jquery.yiigridview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/update.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/gridview/view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/listview/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/listview/jquery.yiilistview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/listview/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/listview/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cdaee7e3/listview/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/autocomplete/indicator.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/autocomplete/jquery.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.ajaxqueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.ba-bbq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.bgiframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.maskedinput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.multifile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.rating.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.treeview.async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.treeview.edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.yii.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.yiiactiveform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jquery.yiitab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.resizable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.selectable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/css/base/jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/js/jquery-ui-i18n.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/jui/js/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/rating/delete.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/rating/jquery.rating.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/rating/star.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/file.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/folder-closed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-black-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-black.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-default-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-famfamfam-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-famfamfam.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-gray-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-gray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-red-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/images/treeview-red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/treeview/jquery.treeview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/da5c19a0/yiitab/jquery.yiitab.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/AjaxRouteController.php" afterPath="$PROJECT_DIR$/protected/controllers/AjaxRouteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/_map.php" afterPath="$PROJECT_DIR$/protected/views/layouts/_map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/views/view_route_controls.js" afterPath="$PROJECT_DIR$/js/views/view_route_controls.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -12,20 +188,21 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372011509240" ignored="false" />
     <file path="/_layout.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370278065547" ignored="false" />
-    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372026910438" ignored="false" />
-    <file path="/_map.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372000334363" ignored="false" />
+    <file path="/index.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030739288" ignored="false" />
+    <file path="/_map.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030183536" ignored="false" />
     <file path="/routes_editor.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370280836326" ignored="false" />
     <file path="/route_polyline.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370281435464" ignored="false" />
     <file path="/editor.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370281149844" ignored="false" />
-    <file path="/AjaxRouteController.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372028259565" ignored="false" />
+    <file path="/AjaxRouteController.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372032328452" ignored="false" />
     <file path="/Route.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1370986318434" ignored="false" />
-    <file path="/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372027794969" ignored="false" />
+    <file path="/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372031978390" ignored="false" />
     <file path="/frontend.css" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372020936918" ignored="false" />
     <file path="$PROJECT_DIR$/../heroku_diplom/js/views/view_route_controls.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372019079300" ignored="false" />
     <file path="/Dummy.txt" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372025054610" ignored="false" />
-    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372028269112" ignored="false" />
-    <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372021265413" ignored="false" />
+    <file path="$PROJECT_DIR$/../heroku_diplom/.idea/workspace.xml" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372033937016" ignored="false" />
+    <file path="/*.regexp" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030486497" ignored="false" />
     <file path="/Vk.php" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372027979334" ignored="false" />
+    <file path="/application.js" changelist="8832c1a8-f82a-4aee-a8d2-9b50fe3be75d" time="1372030516080" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +227,33 @@
           <file leaf-file-name="_map.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="25" selection-start="2565" selection-end="2565" vertical-scroll-proportion="-7.714286">
+                <state line="52" column="57" selection-start="2764" selection-end="2773" vertical-scroll-proportion="3.3061225">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#6489#6783#0" expanded="true" />
-                    <element signature="e#6996#7292#0" expanded="true" />
+                    <element signature="e#6506#6800#0" expanded="true" />
+                    <element signature="e#7013#7309#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="view_route_controls.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="view_route_controls.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="46" selection-start="1420" selection-end="1431" vertical-scroll-proportion="-16.8">
+                <state line="49" column="36" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.38403615">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/application.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="45" column="9" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -96,16 +282,25 @@
           <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="57" column="25" selection-start="1967" selection-end="1976" vertical-scroll-proportion="-13.530612">
+                <state line="55" column="17" selection-start="1873" selection-end="1882" vertical-scroll-proportion="-5.142857">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AjaxRouteController.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="48" column="58" selection-start="2445" selection-end="2445" vertical-scroll-proportion="-14.489796">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AjaxRouteController.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxRouteController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="12" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.54513484">
+                <state line="89" column="34" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-15.0">
                   <folding />
                 </state>
               </provider>
@@ -127,7 +322,7 @@
           <file leaf-file-name="index-old.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/site/index-old.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.5100118">
+                <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.66820985">
                   <folding />
                 </state>
               </provider>
@@ -153,8 +348,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/routes_editor.js" />
-        <option value="$PROJECT_DIR$/js/route_editor/views/route/route_polyline.js" />
         <option value="$PROJECT_DIR$/js/route_editor/views/stop_marker.js" />
         <option value="$PROJECT_DIR$/protected/models/Route.php" />
         <option value="$PROJECT_DIR$/js/views/map.js" />
@@ -164,11 +357,13 @@
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/frontend.css" />
+        <option value="$PROJECT_DIR$/protected/models/Vk.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/_map.php" />
+        <option value="$PROJECT_DIR$/js/application.js" />
+        <option value="$PROJECT_DIR$/protected/controllers/AjaxRouteController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/js/views/view_route_controls.js" />
-        <option value="$PROJECT_DIR$/protected/models/Vk.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/AjaxRouteController.php" />
       </list>
     </option>
   </component>
@@ -255,6 +450,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grom_diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -293,12 +506,12 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2145144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.098185696" sideWeight="0.4140875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.5773746" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.452508" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.41515476" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14514408" sideWeight="0.3244397" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -372,20 +585,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/column1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/column2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/admin_fullwidth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -423,7 +622,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index-old.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.5100118">
+        <state line="55" column="48" selection-start="1862" selection-end="1867" vertical-scroll-proportion="0.66820985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="169" selection-end="182" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Point.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="87.583336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="58" selection-start="2445" selection-end="2445" vertical-scroll-proportion="-14.489796">
           <folding />
         </state>
       </provider>
@@ -437,59 +657,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
+    <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="25" selection-start="2565" selection-end="2565" vertical-scroll-proportion="-7.714286">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6489#6783#0" expanded="true" />
-            <element signature="e#6996#7292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="169" selection-end="182" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="25" selection-start="1967" selection-end="1976" vertical-scroll-proportion="-13.530612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="46" selection-start="1420" selection-end="1431" vertical-scroll-proportion="-16.8">
+        <state line="45" column="9" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Vk.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="5" selection-start="1863" selection-end="1863" vertical-scroll-proportion="1.4376444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Point.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="87.583336">
+        <state line="83" column="5" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.99097747">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxRouteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="12" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.54513484">
+        <state line="89" column="34" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/_map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="57" selection-start="2764" selection-end="2773" vertical-scroll-proportion="3.3061225">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6506#6800#0" expanded="true" />
+            <element signature="e#7013#7309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="17" selection-start="1873" selection-end="1882" vertical-scroll-proportion="-5.142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/view_route_controls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="36" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.38403615">
           <folding />
         </state>
       </provider>

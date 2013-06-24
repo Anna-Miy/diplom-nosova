@@ -50,7 +50,7 @@
                       <ul class="nav main-menu">
                           <li><a href="#show">Просмотр</a></li>
                           <li><a href="#search">Поиск</a></li>
-                          <li><a href="#">Мои маршруты</a></li>
+                          <li><a href="#my" id="my-routes">Мои маршруты</a></li>
                           <li>
                               <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                                   <span class="icon-bar"></span>
